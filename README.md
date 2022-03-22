@@ -54,15 +54,7 @@ This page provides an interface for users to select their preferred date of visi
 
 ![image](https://user-images.githubusercontent.com/71431944/159393308-ed8ee65d-e59c-492b-8db3-67cc262e8673.png)
 
-The key features and functionalities of this page include:
-●	Header
-●	Date Picker
-○	Calendar dropdown
-○	Alert informing user that should the date selected be not within 14 days of the current date, the weather forecast information depicted on the Activity List page might be inaccurate
-○	Alert prompting and requiring users to select a date should no date be selected
-○	Stores selected date in SessionStorage, allowing the Activity List page to only display attractions which are open on the user’s preferred outing date
-●	Next Button
-○	Router link to a VisitLocation.vue
+
 
 After selecting a date, users can select their preferred location.
 ![image](https://user-images.githubusercontent.com/71431944/159393761-e679de53-33af-4932-80ce-08b5b15009ac.png)
@@ -76,43 +68,14 @@ While promoting local attractions, there is also a need to minimise the risks of
 This page displays a list of attractions, filtered based on the user’s selected date and location.
 ![image](https://user-images.githubusercontent.com/71431944/159394018-d5080e28-5c84-4fbe-948c-f3bac9241c03.png)
 
-The key features and functionalities of this page include:
-●	Activities List Header
-○	Weather Information
--	Displays the predicted weather and it’s associated icon
--	Header image changes based on weather type (rain, cloudy, sunny)
-○	Date Information and Date Picker
--	Allows the user to conveniently change his/her initial selected date
-●	Navigation Bar
-○	View Planner button
--	Router link directing users to the planner page
-○	Search Attraction
--	Input field allowing users to search for an attraction based on it’s name
-○	Filters
--	Caters for a combination of multiple client side filters
--	Filters include: location, promotion type, activity type, price range and catered demographic group
+
 
 #### ActivityDetails.vue
 Each attraction has an activity details page, displaying key attraction-specific information.
 
 ![image](https://user-images.githubusercontent.com/71431944/159394147-2269d03a-61b0-4bf4-9afb-d4132fce1bd1.png)
 
-The key features and functionalities of this page include:
-●	Header
-●	Essential Information
-○	Name, picture, description, operating hours, pricing options and promotion details
-●	Explore Food Options Button 
-○	Router link to the eateries page (Eateries.vue)
-○	Stores attraction name in SessionStorage, allowing eateries to be filtered based on the attraction
-●	Book Now Button
-○	Router link to the attraction’s official website for more information or for online booking
-●	Add to Planner Function
-○	Select timing dropdown
--	Allows users to select their preferred visit timing
--	Alert users should no timing be selected
--	Alerts users should there be a timing clash with other planned activities
-○	Router link to the Planners.vue
-○	Attraction name, address and selected timing is stored in SessionStorage to be displayed in the Planner page
+
 
 
 #### Eateries.vue
