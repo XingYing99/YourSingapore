@@ -19,11 +19,13 @@ Merchants can promote their attraction during periods of low-capacity, allowing 
 
 2.	Singaporeans
 Informed about Attractions
+
 ●	Free platform
 ●	Convenient platform to view all ongoing promotions at local attractions
 ●	Easily filter through attractions to suit their personal tastes, preferences and budgets
 
 	Ease of Planning Outings
+	
 ●	Can conveniently view nearby eateries, including travelling information
 ●	Ability to plan activities according to the predicted weather
 ●	Able to have a quick overview of the planned itinerary
@@ -39,6 +41,7 @@ While F&B outlets are not our main users, they would be a key beneficiary. In a 
 
 #### Header.vue
 This is the main header used across most of the webpages. Other than the name of our website, it provides users with 2 main functions:
+
 ●	Router link to About Us page (About.vue)
 ●	Router link to Log In page for Merchants (Login.vue)
 #### Home.vue
