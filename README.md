@@ -20,16 +20,15 @@ Merchants can promote their attraction during periods of low-capacity, allowing 
 2.	Singaporeans
 Informed about Attractions
 
-●	Free platform
-●	Convenient platform to view all ongoing promotions at local attractions
-●	Easily filter through attractions to suit their personal tastes, preferences and budgets
-
-	Ease of Planning Outings
+● Free platform
+● Convenient platform to view all ongoing promotions at local attractions
+● Easily filter through attractions to suit their personal tastes, preferences and budgets
+● Ease of Planning Outings
 	
-●	Can conveniently view nearby eateries, including travelling information
-●	Ability to plan activities according to the predicted weather
-●	Able to have a quick overview of the planned itinerary
-●	Able to easily share itinerary with family and friends
+● Can conveniently view nearby eateries, including travelling information
+● Ability to plan activities according to the predicted weather
+● Able to have a quick overview of the planned itinerary
+● Able to easily share itinerary with family and friends
  
 3.	Local F&B outlets
 While F&B outlets are not our main users, they would be a key beneficiary. In a bid to provide convenience to our users, we would be providing them with a list of eateries around the proximity of places of interest. This would in turn, help to boost business for local F&B outlets.
@@ -42,8 +41,7 @@ While F&B outlets are not our main users, they would be a key beneficiary. In a 
 #### Header.vue
 This is the main header used across most of the webpages. Other than the name of our website, it provides users with 2 main functions:
 
-●	Router link to About Us page (About.vue)
-●	Router link to Log In page for Merchants (Login.vue)
+
 #### Home.vue
 This is the landing page of our website. Both users and merchants will start their journey from this page. Users will be prompted to select the start button to start exploring local attractions while merchants can click on the merchant button to be directed to the merchant-side of the webpage. 
 
