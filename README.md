@@ -13,9 +13,9 @@ The main users of the website are local tourist attraction owners and Singaporea
 
 The primary beneficiaries of the new website are:
 1.	Local tourist attractions
-●	Additional, free platform to reach out to more locals, helping merchants to bring in more revenue. This aids merchants in tiding through the ongoing recession
-●	Merchants can easily update their attraction details such as changes in promotions prices or operating hours, especially since operating conditions are changing frequently due to COVID-19
-●	Merchants can promote their attraction during periods of low-capacity, allowing them to bring in revenue during lull periods
+Additional, free platform to reach out to more locals, helping merchants to bring in more revenue. This aids merchants in tiding through the ongoing recession
+Merchants can easily update their attraction details such as changes in promotions prices or operating hours, especially since operating conditions are changing frequently due to COVID-19
+Merchants can promote their attraction during periods of low-capacity, allowing them to bring in revenue during lull periods
 
 2.	Singaporeans
 Informed about Attractions
@@ -121,51 +121,11 @@ This page allows users to view eateries in the vicinity of an attraction.
 ![image](https://user-images.githubusercontent.com/71431944/159394277-09a3d0a9-1294-4969-ae27-58ea4b637506.png)
 
 
-The key features and functionalities of this page include:
-●	Map Header
-○	Using Google Maps API, the header includes a dynamic map that displays the location of both the attraction and surrounding eateries 
-○	Fixed to the top of the screen, allowing for easy access
-●	Side bar
-○	Search Bar
--	Allows users to search for eateries based on their preferred location or eatery name
-○	Select Timing Dropdown
--	Allows users to select their preferred dining time
-○	Planner Button
--	Router Link to Planner.vue
-○	Attractions Button
--	Router Link to AttractionList.vue
--	Allow users to return to the main attraction listing page within 1 click
-●	Get Directions Button
-○	Displays route information between the attraction and selected eatery on the map
-●	Add to Planner Button
-○	Router Link to Planner.vue
-○	Stores Eatery name, address and dining time in SessionStorage, allowing it to be displayed in the user’s planner
-○	Alerts user should there be a clash of timing or if dining time has not been selected
-
 
 #### Planner.vue
 The planner page providers users with a quick overview of their planned itinerary. 
 ![image](https://user-images.githubusercontent.com/71431944/159394338-9dd32c88-92ee-4957-807c-b1693c890628.png)
 
-The key features and functionalities of this page include:
-●	COVID-19 reminder
-○	To ensure civic responsibility, our planner would provide a reminder to remind users to wear a mask as they enjoy local attractions
-●	Attraction and Eateries Information
-○	Activity name, image, timing and address
-○	Activities are listed in chronological order
-●	Explore Food Options Button
-○	Available only for attractions
-○	Router Link to Eateries.vue
-●	Delete Button
-○	Allows users to delete planned activities without having to refresh the page and restart the entire process
-●	Explore More Attractions Button
-○	Router Link to ActivityList.vue
-○	Stores user’s previously selected date and filters, allowing users to explore more attractions without having to re-select them. This increases usability of the site
-●	Share Button
-○	Hosts a snapshot of the image on Firebase Storage
-○	Pulls out the user’s email client with a draft email, including the link of the planned itinerary for users to share with friends or family
-○	Increases convenience for users
-○	Facilitates organic promotion of YourSingapore, allowing more locals to know of and use our website. 
 
 
 ### Merchant Side
