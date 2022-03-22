@@ -18,17 +18,17 @@ Merchants can easily update their attraction details such as changes in promotio
 Merchants can promote their attraction during periods of low-capacity, allowing them to bring in revenue during lull periods
 
 2.	Singaporeans
-Informed about Attractions
 
-● Free platform
-● Convenient platform to view all ongoing promotions at local attractions
-● Easily filter through attractions to suit their personal tastes, preferences and budgets
-● Ease of Planning Outings
+* Informed about Attractions
+* Free platform
+* Convenient platform to view all ongoing promotions at local attractions
+* Easily filter through attractions to suit their personal tastes, preferences and budgets
+* Ease of Planning Outings
 	
-● Can conveniently view nearby eateries, including travelling information
-● Ability to plan activities according to the predicted weather
-● Able to have a quick overview of the planned itinerary
-● Able to easily share itinerary with family and friends
+* Can conveniently view nearby eateries, including travelling information
+* Ability to plan activities according to the predicted weather
+* Able to have a quick overview of the planned itinerary
+*Able to easily share itinerary with family and friends
  
 3.	Local F&B outlets
 While F&B outlets are not our main users, they would be a key beneficiary. In a bid to provide convenience to our users, we would be providing them with a list of eateries around the proximity of places of interest. This would in turn, help to boost business for local F&B outlets.
