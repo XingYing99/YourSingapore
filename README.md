@@ -58,6 +58,7 @@ This page provides an interface for users to select their preferred date of visi
 
 
 After selecting a date, users can select their preferred location.
+
 ![image](https://user-images.githubusercontent.com/71431944/159393761-e679de53-33af-4932-80ce-08b5b15009ac.png)
 
 #### Reminder.vue 
@@ -67,6 +68,7 @@ While promoting local attractions, there is also a need to minimise the risks of
 
 #### ActivityList.vue
 This page displays a list of attractions, filtered based on the user’s selected date and location.
+
 ![image](https://user-images.githubusercontent.com/71431944/159394018-d5080e28-5c84-4fbe-948c-f3bac9241c03.png)
 
 
@@ -88,6 +90,7 @@ This page allows users to view eateries in the vicinity of an attraction.
 
 #### Planner.vue
 The planner page providers users with a quick overview of their planned itinerary. 
+
 ![image](https://user-images.githubusercontent.com/71431944/159394338-9dd32c88-92ee-4957-807c-b1693c890628.png)
 
 
@@ -98,6 +101,7 @@ This section details the merchant-side page of the website, including the regist
 
 #### Login.vue
 Under the merchant tab, merchants are directed to a login page whereby merchants can either login to an existing account or register a new account.
+
 ![image](https://user-images.githubusercontent.com/71431944/159394495-a0442674-1f32-49c8-a100-63a87c6e6b24.png)
 
 ### Register.vue
